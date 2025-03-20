@@ -13,6 +13,6 @@ document.getElementById("registerForm").addEventListener("submit", function (e) 
       window.location.href = "dashboard.html"; // Change the path if needed
     })
     .catch((error) => {
-      alert(error.message);
+      alert("Error: " + error.message);
     });
 });
