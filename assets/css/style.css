@@ -1,0 +1,94 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f8f8;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: green;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+/* Buttons */
+.auth-buttons .btn {
+    padding: 8px 15px;
+    border: none;
+    background: green;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.auth-buttons .register {
+    background: #28a745;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('../images/background.jpg') center/cover no-repeat;
+    color: black;
+}
+
+.hero h1 {
+    font-size: 30px;
+}
+
+.buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    background: green;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Stats Section */
+.stats {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.stat-box {
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.stat-box h2 {
+    color: green;
+}
